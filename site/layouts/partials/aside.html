@@ -1,0 +1,38 @@
+<div class="col-lg-3 col-md-5 mt-5 mt-lg-0 sidebar">
+  <!-- widget -->
+  <div class="widget-area">
+    <h3 class="widget-title">Catálogos</h3>
+    <div class="rp-widget">
+      {{ range first 5 (where .Site.Pages "Type" "catalogos") }}
+      {{ .Render "widget" }}
+      {{ end }}
+
+    </div>
+  </div>
+  <!-- widget -->
+  <div class="widget-area">
+    <h3 class="widget-title">Últimas Noticias</h3>
+    <div class="rp-widget">
+
+
+      {{  range first 5 (where .Site.Pages "Type" "blog") }}
+      {{ .Render "widget" }}
+      {{ end}}
+
+    </div>
+  </div>
+  <!-- widget -->
+  <div class="widget-area">
+    <h3 class="widget-title">Últimos Proyectos</h3>
+    <div class="rp-widget">
+      {{ range first 5 (where .Site.Pages "Type" "proyectos") }}
+      {{ .Render "widget" }}
+      {{ end }}
+
+    </div>
+  </div>
+  <!-- widget -->
+
+  <!-- widget -->
+
+</div>

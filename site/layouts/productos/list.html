@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/header-bg.jpg" "title" "Productos") }}
+
+<section class="intro-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 intro-text">
+					<h1>{{ .Params.subtitle }} <span> {{ .Params.destacado }}</span></h1>
+        </div>
+      </div>
+			<div class="row">
+			     <div class="col-md-12">
+							<p>{{ .Params.description }}<p>
+						</div>
+			</div>
+
+			</div>
+
+	</section>
+
+  <div class="service-box-section spad set-bg" data-setbg="{{ .Params.catalogos_img }}" style="background-image: url('{{ .Params.catalogos_img }}');">
+  		<div class="container">
+				<div class="section-title">
+					<h1>Catálogos</h1>
+
+				</div>
+  			<div class="row">
+          {{ range where .Site.Pages "Section" "catalogos" }}
+          <div class="col-lg-4 col-md-6">
+  					<div class="service-box catalogo">
+              <div class="mb-2">
+                	<img src="{{ .Params.image }}" alt="catalogo_1" class="img-fluid">
+              </div>
+              <h3>{{ .Params.Title }}</h3>
+  						<p>{{ .Params.description }}</p>
+  						<a href="{{ .Params.url }}" class="readmore">Ver catalogo</a>
+  					</div>
+  				</div>
+          {{ end }}
+
+
+
+  			</div>
+  		</div>
+  	</div>
+
+
+    <section class="service-section spad">
+			{{ range where (where .Site.Pages "Section" "productos") "Kind" "taxonomy"}}
+			<div class="container mb-5">
+				<div class="section-title">
+					<h1>{{ .Title }}</h1>
+
+				</div>
+					<div class="row">
+						{{ range $i, $e := .Data.Pages }}
+						<div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+							<img class="mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Params.title }}">
+							<h5 class="mt-5 text-center"><a class="popup-modal" href="#{{ .Params.filtro }}_{{ $i }}">{{ .Params.title }}</a></h5>
+							<div id="{{ .Params.filtro }}_{{ $i }}" class="white-popup mfp-hide">
+  							<h1>{{ .Title }}</h1>
+        				<p>{{ .Content }}</p>
+              </div>
+						</div>
+						{{ end }}
+					</div>
+				</div>
+			{{ end }}
+
+
+  	</section>
+
+
+<!-- Page section end -->
+
+
+{{end}}

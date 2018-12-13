@@ -1,0 +1,47 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: site/content/blog
+  label: Blog
+  create: documents
+  match: "**/*"
+- type: directory
+  path: site/content/catalogos
+  label: Catalogos
+  create: all
+  match: "**/*"
+- type: directory
+  path: site/content/productos
+  label: Proyectos
+  create: all
+  match: "**/*"
+- type: directory
+  path: site/content/productos
+  label: Productos
+  create: all
+  match: "**/*"
+- type: directory
+  path: site/content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: site/content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+- type: heading
+  label: Datos
+- type: document
+  path: site/data/information.yaml
+  label: Información de contacto
+upload_dir: ''
+public_path: ''
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":filename:"
+version: '0.50'

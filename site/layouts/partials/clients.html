@@ -1,0 +1,17 @@
+<!-- Clients section start -->
+<div class="client-section spad">
+  <div class="container">
+
+    <div id="client-carousel" class="client-slider">
+      {{ range .clientes }}
+      <div class="single-brand">
+        <a href="{{ .web }}">
+          <img src="{{ .logo }}" alt="">
+        </a>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+<!-- Clients section end -->

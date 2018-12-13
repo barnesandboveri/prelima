@@ -1,0 +1,102 @@
+<!-- Footer section start -->
+<footer class="footer-section">
+
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-md-4">
+				<div class="footer-item">
+					<div class="row">
+						<div class="col-md-12">
+								<img class="logo_footer" src="/img/logo_pie.png" alt="prelima">
+						</div>
+					</div>
+						<ul class="contact_footer">
+							<li>{{ .Site.Data.information.direccion }}, {{ .Site.Data.information.ciudad }}, {{ .Site.Data.information.pais }} </li>
+
+							<li>Teléfono: {{ .Site.Data.information.telefono }} </li>
+						<li>Celular: {{ .Site.Data.information.celular }} </li>
+						<li>Email: {{ .Site.Data.information.email }} </li>
+						</ul>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+			<div class="col-md-4 justify-content-center">
+				<div class="footer-item ">
+					<ul class="">
+						{{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="footer-item">
+					<div class="row">
+						<div class="col-md-6">
+								<img class="pull-right" src="/img/logo_iso.png" alt="logo_iso">
+						</div>
+						<div class="col-md-6">
+								<img src="/img/logo_ce.png" alt="logo_ce">
+						</div>
+					</div>
+				</div>
+			</div>
+
+					</div>
+
+
+			</div>
+		<hr />
+		<div class="container">
+		<div class="row mt-5 ">
+			<div class="col-md-4">
+				&copy; {{ dateFormat "2006" now }} Prelima
+			</div>
+			<div class="col-md-8 ">
+
+					<ul class="list-inline float-right">
+						<li class="list-inline-item"><a href="#">Política de privacidad</a></li>
+						<li class="list-inline-item"><a href="#">Política de cookies</a></li>
+						<li class="list-inline-item"><a href="#">Aviso Legal</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</footer>
+<!-- Footer section end -->
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.5/isotope.pkgd.min.js"></script>
+<script src="https://colorlib.com/preview/theme/arcade/js/owl.carousel.min.js"></script>
+<script src="https://colorlib.com/preview/theme/arcade/js/jquery.owl-filter.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+{{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+    <script src="{{ relURL . }}"></script>
+{{ end }}
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section start -->
+	<header class="header-area">
+		<a href="home.html" class="logo-area">
+			<img class="img-fluid" src="/img/logo.png" alt="logo_prelima">
+		</a>
+		<div class="nav-switch">
+			<i class="fa fa-bars"></i>
+		</div>
+
+		<nav class="nav-menu">
+			<ul>
+				{{ range .Site.Menus.header }}
+				<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</nav>
+	</header>
+	<!-- Header section end -->

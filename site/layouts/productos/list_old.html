@@ -1,0 +1,193 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/header-bg.jpg" "title" "Productos") }}
+
+<section class="intro-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 intro-text">
+					<h1>{{ .Params.subtitle }} <span> {{ .Params.destacado }}</span></h1>
+        </div>
+      </div>
+			<div class="row">
+			     <div class="col-md-12">
+							<p>{{ .Params.description }}<p>
+						</div>
+			</div>
+
+			</div>
+
+	</section>
+
+  <div class="service-box-section spad set-bg" data-setbg="{{ .Params.catalogos_img }}" style="background-image: url(&quot;{{ .Params.catalogos_img }}&quot;);">
+  		<div class="container">
+  			<div class="row">
+          {{ range where .Site.Pages "Section" "catalogos" }}
+          <div class="col-lg-4 col-md-6">
+  					<div class="solid-service-box">
+              <div class="mb-2">
+                	<img src="{{ .Params.image }}" alt="catalogo_1" class="img-fluid">
+              </div>
+              <h3>{{ .Params.Title }}</h3>
+  						<p>{{ .Params.description }}</p>
+  						<a href="{{ .Params.url }}" class="readmore">Ver catalogo</a>
+  					</div>
+  				</div>
+          {{ end }}
+
+
+
+  			</div>
+  		</div>
+  	</div>
+
+
+    <section class="service-section spad">
+  		<div class="container">
+  			<div class="section-title">
+  				<h1>Referencias</h1>
+  			</div>
+  			<div class="row">
+  				<div class="col-lg-3 col-md-6">
+  					<div class="service-box">
+  						<div class="sb-icon">
+  							<div class="sb-img-icon">
+  								<img src="img/icon/dark/1.png" alt="">
+  							</div>
+  						</div>
+  						<h3>Plans and Projects</h3>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
+  						<a href="#" class="readmore">READ MORE</a>
+  					</div>
+  				</div>
+  				<div class="col-lg-3 col-md-6">
+  					<div class="service-box">
+  						<div class="sb-icon">
+  							<div class="sb-img-icon">
+  								<img src="img/icon/dark/2.png" alt="">
+  							</div>
+  						</div>
+  						<h3>Conceptual Architecture</h3>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
+  						<a href="#" class="readmore">READ MORE</a>
+  					</div>
+  				</div>
+  				<div class="col-lg-3 col-md-6">
+  					<div class="service-box">
+  						<div class="sb-icon">
+  							<div class="sb-img-icon">
+  								<img src="img/icon/dark/3.png" alt="">
+  							</div>
+  						</div>
+  						<h3>Apartment Buildings</h3>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
+  						<a href="#" class="readmore">READ MORE</a>
+  					</div>
+  				</div>
+  				<div class="col-lg-3 col-md-6">
+  					<div class="service-box">
+  						<div class="sb-icon">
+  							<div class="sb-img-icon">
+  								<img src="img/icon/dark/4.png" alt="">
+  							</div>
+  						</div>
+  						<h3>Skyscrapers Buildings</h3>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
+  						<a href="#" class="readmore">READ MORE</a>
+  					</div>
+  				</div>
+  				<div class="col-lg-3 col-md-6">
+  					<div class="service-box">
+  						<div class="sb-icon">
+  							<div class="sb-img-icon">
+  								<img src="img/icon/dark/5.png" alt="">
+  							</div>
+  						</div>
+  						<h3>Documentation</h3>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
+  						<a href="#" class="readmore">READ MORE</a>
+  					</div>
+  				</div>
+  				<div class="col-lg-3 col-md-6">
+  					<div class="service-box">
+  						<div class="sb-icon">
+  							<div class="sb-img-icon">
+  								<img src="img/icon/dark/6.png" alt="">
+  							</div>
+  						</div>
+  						<h3>Restauration Projects</h3>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui eget lorem tincidunt.</p>
+  						<a href="#" class="readmore">READ MORE</a>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+
+<!-- Page section start -->
+<div class="page-section spad">
+  <div class="container">
+    <!-- portfolio filter menu -->
+    <ul class="portfolio-filter">
+      <li class="filter" data-filter="*">Todo</li>
+
+          {{ range where (where .Site.Pages "Section" "productos") "Kind" "taxonomy"}}
+              <li class="filter" data-filter=".{{ .Params.filtro }}">{{ .Title }}</li>
+
+
+          {{ end }}
+
+
+
+    </ul>
+  </div>
+  <!-- portfolio items -->
+
+
+  <div class="container">
+  <div class="row isotope-grid">
+
+      {{ range $i,$value:= where .Site.RegularPages "Section" "productos"}}
+      <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item {{$value.Params.filtro}}">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							<img src="{{ $value.Params.image }}" alt="{{ $value.Params.title }}">
+
+							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+								Detalles
+							</a>
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									{{$value.Params.filtro}}
+								</a>
+
+								<span class="stext-105 cl3">
+									{{ $value.Params.title }}
+								</span>
+							</div>
+
+							<div class="block2-txt-child2 flex-r p-t-3">
+								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+									<img class="icon-heart1 dis-block trans-04" src="" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="" alt="ICON">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+      {{ end }}
+
+
+  </div>
+
+</div>
+</div>
+<!-- Page section end -->
+
+
+{{end}}

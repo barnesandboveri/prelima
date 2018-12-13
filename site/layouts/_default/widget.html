@@ -1,0 +1,9 @@
+<div class="rp-widget-item">
+  <div class="thumb">
+    <img src="{{ $.Param "image" }}" alt="{{ .Title }}">
+  </div>
+  <div class="rp-content">
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <p>{{ .Date.Format "2006-01-02" }}</p>
+  </div>
+</div>

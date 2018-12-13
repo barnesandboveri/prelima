@@ -1,0 +1,65 @@
+<!-- CTA section start -->
+<div class="container">
+  <div class="section-title">
+    <h2>Noticias</h2>
+  </div>
+</div>
+<section class="cta-section pt100 pb50">
+
+  {{  range $k, $value := (first 3 (where .Data.Pages "Type" "blog")) }}
+  <div id="bg-{{ $k }}" {{ if eq $k 0 }}
+class="cta-image-box"
+{{else}}
+class="cta-image-box invisible"
+{{ end }}
+style="background-image: url('{{ .Params.image }}');"></div>
+
+
+
+
+  {{ end }}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 pl-lg-0 offset-lg-5 cta-content tab-element">
+        <div class="tab-content" id="myTabContent">
+								<!-- single tab content -->
+                {{  range $i, $value := (first 3 (where .Data.Pages "Type" "blog")) }}
+                  <div {{ if eq $i 0 }}
+    class="tab-pane fade show active "
+{{else}}
+    class="tab-pane fade "
+{{ end }} id='tab-{{ $i }}' role="tabpanel" aria-labelledby='tab-{{ $i }}'>
+
+                    <div class="row">
+
+
+                      <div class="col-md-12">
+                        <h3 class="sp-title front-title">{{ .Title }}</h4>
+                        <p>{{ .Description }}</p>
+                      </div>
+                    </div>
+                  </div>
+                {{ end }}
+
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                {{  range $j, $value := (first 3 (where .Data.Pages "Type" "blog")) }}
+                <li class="nav-item">
+                  <a
+                  {{ if eq $j 0 }}
+    class="clickme nav-link show active"
+{{else}}
+    class="clickme nav-link"
+{{ end }}
+
+
+                  id='{{ $j }}-tab' data-tag="{{ $j }}" data-toggle="tab" href='#tab-{{ $j }}' role="tab" aria-controls='tab-{{ $j }}' aria-selected="false">{{ .Date.Format "2006-01-02" }}</a>
+                </li>
+                {{ end }}
+                </ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CTA section end -->

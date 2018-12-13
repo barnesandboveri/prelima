@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/header-bg.jpg" "title" "Proyectos" ) }}
+
+
+<section class="page-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-12">
+          <div class="blog-post">
+            <div class="blog-image mb-5">
+
+                <img src="{{ $.Param "image" }}" alt="">
+
+            </div>
+            <div class="blog-content">
+              <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <p>{{ .Content }}</p>
+            </div>
+          </div>
+
+				</div>
+				{{ partial "aside" . }}
+			</div>
+		</div>
+	</section>
+{{ end }}

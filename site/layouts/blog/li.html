@@ -1,0 +1,12 @@
+<div class="blog-post">
+  <div class="thumb">
+    <a href="{{ .Permalink }}">
+      <img src="{{ $.Param "image" }}" alt="">
+    </a>
+  </div>
+  <div class="blog-content">
+    <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Description }}</p>
+  </div>
+</div>

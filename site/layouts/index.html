@@ -1,9 +1,20 @@
 {{ define "main" }}
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
+{{ partial "slider" .Params }}
 
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
+{{ partial "about_us" .Params.about_us }}
 
-<a href="{{ "/tech" | relURL }}">Check out the tech</a>
+{{ partial "services" .Params.services }}
+
+{{ partial "cta" . }}
+
+{{ partial "counters" .Params.counters }}
+
+{{ partial "proyectos" . }}
+
+{{ partial "clients" .Params.confian }}
+
+{{ partial "map" .Site.Data.information }}
+
 
 {{ end }}

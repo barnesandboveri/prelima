@@ -1,0 +1,18 @@
+---
+label: test
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: texto preuba
+  name: keyname
+  label: labelname
+  description: descripcion
+- type: image_gallery
+  name: key_galeria
+  label: etiqueta galeria
+  description: descripcion galeria
+- type: file
+  label: etiqueta foto-arch
+  name: key_foto_arch
+  description: descripcion

@@ -1,0 +1,36 @@
+<head>
+	<title>Prelima | {{ .Title }}</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Prelima - Prefabricados de Lima">
+	<meta name="keywords" content="Prefabricados, hormigón, concreto, piezas, construcción">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/icon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/icon//favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/icon//favicon-16x16.png">
+	<link rel="manifest" href="/img/icon/site.webmanifest">
+	<link rel="mask-icon" href="/img/icon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	{{ $stylesheet := .Site.Data.webpack.main }}
+  {{ with $stylesheet.css }}
+    <link href="{{ relURL . }}" rel="stylesheet">
+		{{ end }}
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://colorlib.com/preview/theme/arcade/css/owl.carousel.css"/>
+
+
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>

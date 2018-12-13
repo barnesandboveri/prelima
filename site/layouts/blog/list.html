@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/header-bg.jpg" "title" "Blog") }}
+
+<section class="page-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-12">
+          {{ range (.Paginator 3).Pages.ByPublishDate.Reverse }}
+
+              {{ .Render "li"}}
+
+          {{ end }}
+          {{ partial "pagination" . }}
+					<!-- Blog post -->
+
+
+
+				</div>
+				{{ partial "aside" . }}
+			</div>
+		</div>
+	</section>
+
+
+{{ end }}
