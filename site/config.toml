@@ -2,61 +2,54 @@ baseurl = "/"
 languageCode = "es-es"
 languageLang = "es"
 title = "Prelima"
-
+[[menu.footer]]
+name = "Contacto"
+url = "/#contact"
+weight = 6
+[[menu.footer]]
+name = "Productos"
+url = "/productos/"
+weight = 5
+[[menu.footer]]
+name = "Proyectos"
+url = "/proyectos/"
+weight = 4
+[[menu.footer]]
+name = "Noticias"
+url = "/blog/"
+weight = 3
+[[menu.footer]]
+name = "Servicios"
+url = "/#services"
+weight = 2
+[[menu.footer]]
+name = "Sobre Nosotros"
+url = "/#about-us"
+weight = 1
+[[menu.header]]
+name = "Proyectos"
+url = "proyectos/"
+weight = 4
+[[menu.header]]
+name = "Noticias"
+url = "blog/"
+weight = 3
+[[menu.header]]
+name = "Servicios"
+url = "/#services"
+weight = 2
+[[menu.header]]
+name = "Sobre Nosotros"
+url = "/#about-us"
+weight = 1
+[[menu.header]]
+name = "Contacto"
+url = "/#contact"
+weight = 6
+[[menu.header]]
+name = "Productos"
+url = "productos/"
+weight = 5
 [taxonomies]
-  proyecto = "proyectos"
-  producto = "productos"
-
-[menu]
-
-
-  [[menu.header]]
-    weight = 2
-    name = "Sobre Nosotros"
-    url = "/#about-us"
-  [[menu.header]]
-    weight = 3
-    name = "Servicios"
-    url = "/#services"
-  [[menu.header]]
-    weight = 4
-    name = "Noticias"
-    url = "blog/"
-  [[menu.header]]
-    weight = 5
-    name = "Proyectos"
-    url = "proyectos/"
-  [[menu.header]]
-    weight = 6
-    name = "Productos"
-    url = "productos/"
-  [[menu.header]]
-    weight = 7
-    name = "Contacto"
-    url = "/#contact"
-
-
-  [[menu.footer]]
-    weight = 2
-    name = "Sobre Nosotros"
-    url = "/#about-us"
-  [[menu.footer]]
-    weight = 3
-    name = "Servicios"
-    url = "/#services"
-  [[menu.footer]]
-    weight = 4
-    name = "Noticias"
-    url = "blog/"
-  [[menu.footer]]
-    weight = 5
-    name = "Proyectos"
-    url = "proyectos/"
-  [[menu.footer]]
-    weight = 6
-    name = "Productos"
-    url = "productos/"
-  [[menu.footer]]
-    weight = 7
-    name = "Contacto"
-    url = "/#contact"
+producto = "productos"
+proyecto = "proyectos"
