@@ -224,9 +224,11 @@ $(window).on('load', function() {
 	});
 
 
- 	$('.simple-ajax-popup').magnificPopup({
- 		type: 'ajax'
- 	});
+	$('.popup-modal').magnificPopup({
+  type:'inline',
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});
+
 
 
 
