@@ -16,11 +16,6 @@ sections:
   match: "**/*"
 - type: directory
   path: site/content/productos
-  label: Proyectos
-  create: all
-  match: "**/*"
-- type: directory
-  path: site/content/productos
   label: Productos
   create: all
   match: "**/*"
