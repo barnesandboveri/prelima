@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/header-bg.jpg" "title" "Productos") }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Params.title ) }}
 
 <section class="intro-section spad">
 		<div class="container">
@@ -14,7 +14,6 @@
 							<p>{{ .Params.description }}<p>
 						</div>
 			</div>
-
 			</div>
 
 	</section>
