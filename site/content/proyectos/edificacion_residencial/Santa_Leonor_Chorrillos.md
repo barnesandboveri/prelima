@@ -1,8 +1,7 @@
 ---
 title: Santa Leonor en Chorrillos
 date: 2018-18-10T15:04:10.000Z
-description: >-
-Instalación de prelosa en Santa Leonor Chorrillos
+description: Instalación de prelosa en Santa Leonor Chorrillos
 filtro: obra_especial
 image: /img/estacion_tren.jpg
 

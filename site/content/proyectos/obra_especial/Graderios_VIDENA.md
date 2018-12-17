@@ -1,8 +1,7 @@
 ---
 title: Graderíos en la Videna
 date: 2018-01-10T15:04:10.000Z
-description: >-
-Instalación de graderios en la VIDENA
+description: Instalación de graderios en la VIDENA
 filtro: obra_especial
 image: /img/estacion_tren.jpg
 

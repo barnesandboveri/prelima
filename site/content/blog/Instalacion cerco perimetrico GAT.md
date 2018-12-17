@@ -1,8 +1,7 @@
 ---
 title: Instalación Cerco Perimétrico - GAT
 date: 2018-11-11T15:04:10.000Z
-description: >-
-  Instalación de un cerco perimétrico en terreno industrial.
+description: Instalación de un cerco perimétrico en terreno industrial.
 image: /img/liberpark.jpg
 ---
 
