@@ -1,8 +1,7 @@
 ---
 title: Panel Huaca en la VIDENA
 date: 2018-01-11T15:04:10.000Z
-description: >-
-Instalación de panel HUACA en la VIDENA
+description: Instalación de panel HUACA en la VIDENA
 filtro: obra_especial
 image: /img/estacion_tren.jpg
 
