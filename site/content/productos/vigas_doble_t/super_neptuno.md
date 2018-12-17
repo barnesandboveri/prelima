@@ -3,10 +3,12 @@ title: Super Neptuno
 image: /img/super_neptuno.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
+markup: mmark
 ---
 
 DIMENSIONES DE LA VIGA
 
+{.table}
 |VIGAS DOBLE T|DOBLE T SUPERNEPTUNO|
 |--- |--- |
 |Peso propio (KN/ml)|8,775|
@@ -17,6 +19,7 @@ DIMENSIONES DE LA VIGA
 
 CARGAS ADMISIBLES EN LA VIGA
 
+{.table}
 |||||||||
 |--- |--- |--- |--- |--- |--- |--- |--- |
 |Vano de viga (m)||||||||

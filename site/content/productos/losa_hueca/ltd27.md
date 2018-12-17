@@ -6,8 +6,8 @@ productos: ["losa_hueca"]
 markup: mmark
 
 ---
-{.table}
 
+{.table}
 |LOSA HUECA|LTD27|
 |--- |--- |
 |Canto (m)|0,27|

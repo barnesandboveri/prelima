@@ -7,7 +7,6 @@ markup: mmark
 
 ---
 {.table}
-
 |LOSA HUECA|LHE 25|
 |--- |--- |
 |Canto (m)|0,25|

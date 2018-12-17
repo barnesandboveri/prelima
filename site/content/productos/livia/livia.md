@@ -3,7 +3,6 @@ title: Livia
 image: /img/livia.gif
 filtro: livias
 productos: ["Livia"]
-
 markup: mmark
 
 ---

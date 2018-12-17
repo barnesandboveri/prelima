@@ -3,12 +3,11 @@ title: Lhe 20
 image: /img/lhe_20.gif
 filtro: losa_hueca
 productos: ["losa_hueca"]
-
 markup: mmark
 
 ---
-{.table}
 
+{.table}
 |LOSA HUECA|LHE 20|
 |--- |--- |
 |Canto (m)|0,20|

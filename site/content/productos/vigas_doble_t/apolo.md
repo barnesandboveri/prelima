@@ -9,8 +9,8 @@ markup: mmark
 
 
 DIMENSIONES DE LA VIGA
-{.table}
 
+{.table}
 |VIGAS DOBLE T|DOBLE T APOLO|
 |--- |--- |
 |Peso propio (KN/ml)|6,075|
@@ -20,6 +20,7 @@ DIMENSIONES DE LA VIGA
 
 
 CARGAS ADMISIBLES EN LA VIGA
+
 {.table}
 |||||||||
 |--- |--- |--- |--- |--- |--- |--- |--- |

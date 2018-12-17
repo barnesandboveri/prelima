@@ -7,7 +7,6 @@ markup: mmark
 
 ---
 {.table}
-
 Artesa                      | Artesa 150
 ----------------------------|------------
 Peso Propio (KN/ml)         | 26,42

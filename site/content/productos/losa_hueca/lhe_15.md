@@ -3,12 +3,11 @@ title: Lhe 15
 image: /img/lhe_15.gif
 filtro: losa_hueca
 productos: ["losa_hueca"]
-
 markup: mmark
 
 ---
-{.table}
 
+{.table}
 |LOSA HUECA|LHE 15|
 |--- |--- |
 |Canto (m)|0,15|

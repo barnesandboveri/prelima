@@ -18,6 +18,7 @@ DIMENSIONES DE LA VIGA
 |Momento de Inercia (cm4)|906.948|
 
 CARGAS ADMISIBLES EN LA VIGA
+
 {{.table}}
 |||||||||
 |--- |--- |--- |--- |--- |--- |--- |--- |

@@ -4,10 +4,8 @@ image: /img/artesa_doble_130.gif
 filtro: artesas
 productos: ["Artesas"]
 markup: mmark
-
 ---
 {.table}
-
 Artesa                      | Artesa doble 130
 ----------------------------|------------------
 Peso Propio (KN/ml)         | 22,33

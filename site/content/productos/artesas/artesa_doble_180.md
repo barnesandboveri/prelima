@@ -7,7 +7,6 @@ markup: mmark
 
 ---
 {.table}
-
 Artesa                      | Artesa doble 180
 ----------------------------|------------------
 Peso Propio (KN/ml)         | 27,47

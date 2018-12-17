@@ -18,6 +18,7 @@ DIMENSIONES DE LA VIGA
 
 
 CARGAS ADMISIBLES EN LA VIGA
+
 {.table}
 |||||||||
 |--- |--- |--- |--- |--- |--- |--- |--- |
