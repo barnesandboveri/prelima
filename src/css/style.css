@@ -2174,3 +2174,40 @@ a.image-source-link{
 .over404{
 	background-color: #ee3f54 !important;
 }
+
+
+.section { min-height: 100vh; }
+
+.intro h2{
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.intro h2 span{
+	color: #e60003;
+}
+
+
+.footer-list{
+	font-size: 15px;
+
+}
+
+.footer-list li{
+	margin: 5px 0;
+	color: #727272;
+}
+
+.footer-list li:first-child{
+	margin-top: 25px;
+}
+
+.footer-list li a{
+	color: #727272;
+}
+
+.footer-list li a:hover, .legales ul li a:hover{
+    background-color: #e60003;
+    color: white;
+}

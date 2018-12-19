@@ -1,26 +1,20 @@
 <!-- Hero section start -->
-	<section class="hero-section">
+	<section class="container-fluid h-100">
 
 		<!-- hero slider area -->
+		<div class="row h-100">
 
-		<div class="hero-slider">
-      {{ range .slides }}
-      <div class="hero-slide-item set-bg" data-setbg="{{ .imagen }}">
-				<div class="slide-inner">
-					<div class="slide-content">
-					<h2>{{ .texto }}</h2>
-          {{ if .enlace }}
-                <a href="{{ .enlace }}" class="site-btn sb-light">{{ .texto_enlace }}</a>
-          {{ end }}
-
-					</div>
-				</div>
-			</div>
-      {{ end }}
-
-
+							  {{ range .slides }}
+								<div class="col-12 p-0 h-100" style="background-image: url('{{ .imagen }}')">
+		            <div class="h-100 text-center m-0 d-flex flex-column justify-content-center intro">
+		                <h2>{{ .texto }}</h2>
+										{{ if .subtitle }}
+					                <h2>{{ .subtitle }} <span>{{ .accent }}</span></h2>
+					          {{ end }}
+		            </div>
+								  {{ end }}
+		        </div>
 		</div>
-		<div class="slide-num-holder" id="snh-1"></div>
-		<div class="hero-right-text">PREFABRICADOS</div>
+
 	</section>
 	<!-- Hero section end -->

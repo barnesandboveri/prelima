@@ -5,19 +5,38 @@
 				<h2>{{ .titulo }}</h2>
 			</div>
 			<div class="row">
-        {{ range .servicio }}
+
+        {{ range $i, $e := .servicio }}
 				<div class="col-lg-4 col-md-6">
 					<div class="service-box">
 						<div class="sb-icon">
 							<div class="sb-img-icon">
-								<img src="{{ .icono }}" alt="">
+								<img src="{{ $e.icono }}" alt="">
 							</div>
 						</div>
-						<h3>{{ .titulo }}</h3>
-						<p>{{ .descripcion }}</p>
-						<a href="{{ .enlace }}" class="readmore">{{ .texto_enlace }}</a>
+						<h3>{{ $e.titulo }}</h3>
+						<p>{{ $e.descripcion }}</p>
+						<button type="button" class="readmore"  data-toggle="modal" data-target="#myModal{{ $i }}">{{ $e.texto_enlace }}</button>
 					</div>
 				</div>
+				<div class="modal" id='myModal{{ $i }}'>
+  					<div class="modal-dialog">
+    					<div class="modal-content">
+      	<!-- Modal Header -->
+      					<!-- Modal body -->
+      					<div class="modal-body">
+										{{ range .servicio.texto_modal }}
+        						<p>{{ .texto }}</p>
+										{{ end }}
+      					</div>
+      				<!-- Modal footer -->
+      				<div class="modal-footer">
+        				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      				</div>
+    				</div>
+  				</div>
+			</div>
+
       {{ end }}
 			</div>
 		</div>
