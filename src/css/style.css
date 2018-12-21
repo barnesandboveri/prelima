@@ -1395,7 +1395,7 @@ ol {
 }
 
 .blog-post p {
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
 .blog-post .post-meta {
@@ -2210,4 +2210,15 @@ a.image-source-link{
 .footer-list li a:hover, .legales ul li a:hover{
     background-color: #e60003;
     color: white;
+}
+
+.blog-post ul {
+	font-size: 15px;
+	list-style-type: disc;
+	color: #727272;
+	margin-left: 20px;
+}
+
+.blog-post-ul li{
+
 }

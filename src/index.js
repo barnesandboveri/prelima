@@ -1,7 +1,6 @@
 // JS Goes here - ES6 supported
 
 import "./css/main.css";
-import "./css/bootstrap.min.css";
 import "./css/animate.css";
 import "./css/magnific-popup.css";
 import "./css/style.css";

@@ -10,6 +10,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/img/icon//favicon-16x16.png">
 	<link rel="manifest" href="/img/icon/site.webmanifest">
 	<link rel="mask-icon" href="/img/icon/safari-pinned-tab.svg" color="#5bbad5">
+
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
@@ -23,7 +24,116 @@
 		{{ end }}
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 
+	<script>
+
+
+
+	function enableCookies() {
+		// write iframe to append the map to the page
+
+		var myElement = document.getElementById("myElement");
+		if(myElement){
+		// Do nothing
+		}
+		else{
+		var link = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.1873505501926!2d-76.8341886851849!3d-12.303166691296836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDE4JzExLjQiUyA3NsKwNDknNTUuMiJX!5e0!3m2!1ses!2ses!4v1545244362830"
+		var iframe = document.createElement('iframe');
+		iframe.frameborder = 0;
+		iframe.id="mapa"
+		iframe.width="1960px";
+		iframe.height="400px";
+		iframe.style="border:0px";
+		iframe.allowfullscreen = true;
+		iframe.setAttribute("src", link);
+		document.getElementById('mapwrapper').appendChild(iframe);
+		}
+	}
+
+	function disableCookies() {
+		var frame = document.getElementById("mapa");
+		frame.parentNode.removeChild(frame);
+
+
+	}
+
+
+
+	function onError(error) {
+			console.log(`Error removing cookie: ${error}`);
+	}
+
+	function removeCookie(tabs) {
+			var removing = browser.cookies.remove({
+				url: tabs[0].url,
+				name: "favourite-colour"
+	});
+	removing.then(onRemoved, onError);
+	}
+
+
+
+					window.addEventListener("load", function () {
+							window.cookieconsent.initialise({
+									container: document.getElementById("content"),
+									"palette": {
+											"popup": {
+													"background": "#000"
+											},
+											"button": {
+													"background": "#f1d600"
+											}
+									},
+									"position": "bottom-right",
+									"revokable": true,
+									"autoOpen":true,
+									"type": "opt-out",
+									"content": {
+										"message": "Este sitio web usa cookies, rechazarlas podría implicar que no se visualizase bien.",
+										"dismiss": "Acepto",
+										"deny": "Rechazar",
+										"allow": "Acepto",
+										"link": "Consultar cookies",
+										"href": "/cookies"
+									},
+
+									onInitialise: function (status) {
+											var type = this.options.type;
+											var didConsent = this.hasConsented();
+
+											if (type == 'opt-out' && !didConsent) {
+												 disableCookies();
+
+													if (this.options.revokable) {
+
+															setTimeout(function () {
+																	document.getElementsByClassName("cc-revoke")[0].style.display = "block";
+															});
+													}
+											}
+									},
+									onStatusChange: function (status, chosenBefore) {
+											var type = this.options.type;
+
+											var didConsent = this.hasConsented();
+
+											if (type == 'opt-out' && !didConsent) {
+													disableCookies();
+											}
+											if (type == 'opt-out' && didConsent) {
+													//enable cookies
+													enableCookies();
+											}
+
+									}
+
+							});
+					});
+
+
+	 </script>
 
 
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
