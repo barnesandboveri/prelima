@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" .Title ) }}
+{{ partial "jumbotron" (dict "imageUrl" "$.Site.Params.cloudinary_base_url/blog-index.jpg" "title" .Title ) }}
 
 <section class="page-section spad">
 		<div class="container">

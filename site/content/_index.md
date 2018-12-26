@@ -13,7 +13,7 @@ about_us:
     descripcion: "Prefabricados de Lima, SAC -PRELIMA®- nacida en el año 2012 de la mano de un grupo de empresarios afines al sector de la obra civil en España, en asociación con empresarios del sector de la construcción peruano. Apoyados a nivel técnico y de gestión por profesionales de amplia experiencia en el sector de los prefabricados de concreto en España, respaldados por 50 años de historia en los que desarrollaron obras relevantes en diversas áreas de negocio: obra civil, industrial, residencial y prefabricado arquitectónico, además de estructura metálica y desarrollo de ingeniería de grandes proyectos nacionales e internacionales."
     extra: "PRELIMA® ha apostado por la continuidad del equipo humano de ingeniería, producción y montaje de otras empresas del sector para así poder garantizar la calidad y cumplimiento que siempre ha caracterizado a los socios que han fundado esta compañía."
     extra2: "Ofrecemos a nuestros clientes un trato directo y personal, con un constante afán por superar sus expectativas, adaptándonos a sus necesidades y aportando soluciones integrales."
-    imagen: /img/intro.png
+    imagen: intro.png
 services:
     titulo: Servicios
     servicio:

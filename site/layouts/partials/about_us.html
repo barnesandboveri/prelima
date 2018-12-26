@@ -4,13 +4,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 intro-text mb-5 mb-lg-0">
-					<h2 class="sp-title">{{ .titulo }}<span>{{ .destacado }}</span></h2>
-					<p>{{ .descripcion }}</p>
-					<p>{{ .extra }}</p>
-					<p>{{ .extra2 }}</p>
+					<h2 class="sp-title">{{ .Params.about_us.titulo }}<span>{{ .Params.about_us.destacado }}</span></h2>
+					<p>{{ .Params.about_us.descripcion }}</p>
+					<p>{{ .Params.about_us.extra }}</p>
+					<p>{{ .Params.about_us.extra2 }}</p>
 				</div>
 				<div class="col-lg-5 pt-4">
-					<img src="{{ .imagen }}" alt="">
+					<img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.about_us.imagen }}" alt="">
 				</div>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
 ---
 title: Blog
-image: /img/products-jumbotron.jpg
+image: products-jumbotron.jpg
 ---
