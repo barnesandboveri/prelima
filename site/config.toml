@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "es-es"
 languageLang = "es"
 title = "Prelima"
+
 [[menu.footer]]
 name = "Contacto"
 url = "/#contact"
@@ -50,6 +51,17 @@ weight = 6
 name = "Productos"
 url = "productos/"
 weight = 5
+
+[params]
+description = '''
+Write an awesome description for your new site here. You can edit this
+line in config.yml. It will appear in your document head meta (for
+Google search results) and in your RSS feed description.
+'''
+
+cloudinary_base_url = "https://res.cloudinary.com/prelima/image/upload/"
+
+
 [taxonomies]
 producto = "productos"
 proyecto = "proyectos"

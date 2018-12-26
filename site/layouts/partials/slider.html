@@ -3,9 +3,9 @@
 
 		<!-- hero slider area -->
 		<div class="row h-100">
+								{{ range .Params.slides }}
 
-							  {{ range .slides }}
-								<div class="col-12 p-0 h-100" style="background-image: url('{{ .imagen }}')">
+								<div class="col-12 p-0 h-100" style="background-image: url('{{ $.Site.Params.cloudinary_base_url }}q_59/{{ .imagen }}')">
 		            <div class="h-100 text-center m-0 d-flex flex-column justify-content-center intro">
 		                <h2>{{ .texto }}</h2>
 										{{ if .subtitle }}

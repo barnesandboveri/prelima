@@ -2,7 +2,7 @@
 title: "Prefabricados de Lima S.A.C."
 subtitle: Support sustainable farming while enjoying a cup
 slides:
-    - imagen: /img/bg.jpg
+    - imagen: bg.jpg
       texto: Soluciones estructurales,
       subtitle: expertos en
       accent: concreto
