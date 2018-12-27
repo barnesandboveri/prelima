@@ -1,11 +1,12 @@
 ---
 title: Montaje - Proyecto Liberpark (CIUDARIS)
-date: 2017-28-09T15:04:10.000Z
-description: >-
-  Nuestro cliente, CIUDARIS, se encuentra en fase de terminación del proyecto LIBERPARK en San Miguel donde ha utilizado la Prelosa pretensada PRELIMA destinada a formación de pisos.
-image: /img/liberpark.jpg
----
+date: 2018-09-27 22:00:00 +0000
+description: Nuestro cliente, CIUDARIS, se encuentra en fase de terminación del proyecto
+  LIBERPARK en San Miguel donde ha utilizado la Prelosa pretensada PRELIMA destinada
+  a formación de pisos.
+image: "/v1545942280/Liberpark03.jpg"
 
+---
 Nuestro cliente, CIUDARIS, se encuentra en fase de terminación del proyecto LIBERPARK en San Miguel donde ha utilizado la Prelosa pretensada PRELIMA destinada a formación de pisos.
 
 En las imágenes se puede apreciar la limpieza en la ejecución de los trabajos, la inmejorable calidad de acabados de los techos y la facilidad que supone el paso de instalaciones. Todo ello sin la necesidad de encofrados ni apuntalamientos de otras soluciones constructivas.
