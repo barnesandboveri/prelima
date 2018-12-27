@@ -1,7 +1,6 @@
 +++
 date = "2018-01-11T15:04:10.000+00:00"
 description = "Cerco perímetro en planta de fertilizantes"
-draft = true
 filtro = "obra_especial"
 image = "/v1545939397/af63fc77-cee4-4d1e-8251-f39f198d997c.jpg"
 title = "Cerco perimétrico GAT"
