@@ -1,7 +1,7 @@
-<div class="single-project set-bg {{ $.Param "filtro" }}" data-setbg="{{ $.Param "image" }}">
+<div class="single-project set-bg {{ $.Param "filtro" }}" data-setbg="https://res.cloudinary.com/prelima/image/upload/{{ $.Param "image" }}">
   <div class="project-content">
     <h2>{{ .Title }}</h2>
-    <p>{{ $.Param "date" }}</p>
+    <p>{{ .Date.Format "2006-01-02" }}</p>
     <a href="{{ .Permalink }}" class="seemore">Ver mas </a>
   </div>
 </div>

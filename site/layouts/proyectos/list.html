@@ -26,7 +26,7 @@
       <div class="grid-sizer"></div>
       {{ range $i,$value:= where .Site.RegularPages "Section" "proyectos"}}
 
-      <div class="grid-item set-bg {{ if eq ( mod $i 9 ) 0 }}grid-wide{{ end }} {{ if  eq ( mod $i 6 ) 5}}grid-long{{ end }} {{$value.Params.image}} {{$value.Params.filtro}}" data-setbg="{{ $value.Params.image }}"><a class="img-popup" href="{{  $value.Params.image  }}" data-source="{{ $value.Permalink }}" title="{{ $value.Params.title }}"></a></div>
+      <div class="grid-item set-bg {{ if eq ( mod $i 9 ) 0 }}grid-wide{{ end }} {{ if  eq ( mod $i 6 ) 5}}grid-long{{ end }} {{$value.Params.image}} {{$value.Params.filtro}}" data-setbg="https://res.cloudinary.com/prelima/image/upload/{{ $value.Params.image }}"><a class="img-popup" href="https://res.cloudinary.com/prelima/image/upload/{{  $value.Params.image  }}" data-source="{{ $value.Permalink }}" title="{{ $value.Params.title }}"></a></div>
       {{ end }}
 
     </div>
