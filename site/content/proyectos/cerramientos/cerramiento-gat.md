@@ -1,10 +1,10 @@
 +++
 date = "2018-01-11T15:04:10.000+00:00"
-description = "Instalación de panel HUACA en la VIDENA"
+description = "Cerco perímetro en planta de fertilizantes"
 draft = true
 filtro = "obra_especial"
-image = "/v1545939251/IMG_6233.jpg"
-title = "Cerramiento GAT"
+image = "/v1545939397/af63fc77-cee4-4d1e-8251-f39f198d997c.jpg"
+title = "Cerco perimétrico GAT"
 
 +++
-Prelima completa la instalación de nuestros paneles Huaca en la obra de nuestro cliente COSAPI, en la Villa Deportiva Nacional de Perú.
+Prelima ha concluído con éxito la instalación de un cerco perimétrico, en la planta de formulación de fertilizantes líquidos de nuestro cliente GAT Perú S.A.
