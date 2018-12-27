@@ -1,13 +1,13 @@
 +++
-date = "2017-01-30T23:00:00+00:00"
-description = "El Ministerio de Vivienda homologa, el 31 de Enero de 2017, el Sistema Constructivo No Convencional de Prelosas Pretensadas PRELIMA mediante Resolución Ministerial Nº 037-2017-VIVIENDA"
+date = "2016-11-28T23:00:00+00:00"
+description = "Actualmente nos encontramos en proceso de producción de prelosa pretensada PRELIMA destinada a la ejecución de pisos aligerados para el proyecto NEOMAR II en Pueblo Libre, construido por MS CONSTRUCTORES"
 draft = true
-image = "/v1545940076/2016-11-26-PHOTO-00036521.jpg"
+image = "/v1545940076/2016-11-26-PHOTO-00036519.jpg"
 title = "Fabricación Prelosa PRELIMA"
 
 +++
-El Ministerio de Vivienda homologa, el 31 de Enero de 2017, el Sistema Constructivo No Convencional de Prelosas Pretensadas PRELIMA mediante Resolución Ministerial Nº 037-2017-VIVIENDA
+MS CONSTRUCTORES apuesta por productos de vanguardia.
 
-Siguiendo con nuestra máxima de acercar al mercado peruano nuevas tecnologías que faciliten una construcción rápida y de mejor calidad, PRELIMA ha desarrollado un sistema constructivo que presenta numerosas ventajas tanto en el momento de su construcción como durante la vida del edificio.
+Actualmente nos encontramos en proceso de producción de prelosa pretensada PRELIMA destinada a la ejecución de pisos aligerados para el proyecto NEOMAR II en Pueblo Libre, construido por MS CONSTRUCTORES, cliente que ha entendido las numerosas ventajas que le aporta un producto de vanguardia, como son la calidad de acabados, la mejora de la seguridad en obra, el aumento de productividad en la ejecución de pisos y, en general, la rentabilidad económica global asociada a todos estos factores.
 
-[170201-EL-PERUANO-Resolución-1480643-7.pdf](/v1545939988/170201-EL-PERUANO-Resoluci%C3%B3n-1480643-7.pdf "170201-EL-PERUANO-Resolución-1480643-7.pdf")
+Felicitamos a MS CONSTRUCTORES por haber avanzado un paso más en la búsqueda de la excelencia en su trabajo.
