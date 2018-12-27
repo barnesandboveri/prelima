@@ -1,6 +1,6 @@
 ---
 title: Homologación prelosa PRELIMA
-date: 2017-31-01T15:04:10.000Z
+date: 2017-01-30 23:00:00 +0000
 description: El Ministerio de Vivienda homologa, el 31 de Enero de 2017, el Sistema
   Constructivo No Convencional de Prelosas Pretensadas PRELIMA mediante Resolución
   Ministerial Nº 037-2017-VIVIENDA
