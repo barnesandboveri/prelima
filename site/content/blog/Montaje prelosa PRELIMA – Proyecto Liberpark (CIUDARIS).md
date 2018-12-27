@@ -14,5 +14,3 @@ En las imágenes se puede apreciar la limpieza en la ejecución de los trabajos,
 CIUDARIS ha entendido los ahorros asociados a esta solución y proyecta realizar sus dos próximos proyectos con el mismo sistema.
 
 Felicitamos a CIUDARIS por haber avanzado un paso más en la búsqueda de la excelencia en su trabajo.
-
-Galería.
