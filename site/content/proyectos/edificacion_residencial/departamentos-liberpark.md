@@ -1,5 +1,5 @@
 +++
-date = "2018-12-15T23:00:00.000+00:00"
+date = "2018-10-06T22:00:00+00:00"
 description = "Departamentos Liberpark Ciudaris"
 draft = true
 filtro = "obra_especial"
