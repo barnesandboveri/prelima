@@ -651,8 +651,7 @@ ol {
 }
 
 
-.slide-content h2 {
-	color: #fff;
+.intro h2 {
 	font-size: 80px;
 	line-height: 80px;
 }
@@ -1808,7 +1807,7 @@ ol {
 		padding-top: 120px;
 		padding-bottom: 30px;
 	}
-	.slide-content h2 {
+	.intro h2 {
 		font-size: 60px;
 		line-height: 60px;
 	}
@@ -1959,7 +1958,7 @@ ol {
 		padding: 150px 0;
 		height: auto;
 	}
-	.slide-content h2 {
+	.intro h2 {
 		font-size: 60px;
 		line-height: 60px;
 	}
@@ -2075,7 +2074,7 @@ ol {
 		margin-left: 0;
 		padding: 0 15px;
 	}
-	.slide-content h2 {
+	.intro h2 {
 		font-size: 35px;
 		line-height: 1.5;
 	}

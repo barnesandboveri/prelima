@@ -11,12 +11,12 @@
 					<div class="service-box">
 						<div class="sb-icon">
 							<div class="sb-img-icon">
-								<img src="https://res.cloudinary.com/prelima/image/upload/{{ $e.icono }}" alt="">
+								<img src="https://res.cloudinary.com/prelima/image/upload/{{ .icono }}" alt="">
 							</div>
 						</div>
-						<h3>{{ $e.titulo }}</h3>
-						<p>{{ $e.descripcion }}</p>
-						<button type="button" class="readmore"  data-toggle="modal" data-target="#myModal{{ $i }}">{{ $e.texto_enlace }}</button>
+						<h3>{{ .titulo }}</h3>
+						<p>{{ .descripcion }}</p>
+						<button type="button" class="readmore"  data-toggle="modal" data-target="#myModal{{ $i }}">{{ .texto_enlace }}</button>
 					</div>
 				</div>
 				<div class="modal" id='myModal{{ $i }}'>
@@ -25,9 +25,9 @@
       	<!-- Modal Header -->
       					<!-- Modal body -->
       					<div class="modal-body">
-										{{ range .servicio.texto_modal }}
-        						<p>{{ .texto }}</p>
-										{{ end }}
+								{{ range .texto_modal }}
+									<p>{{ .texto }}</p>
+								{{ end }}
       					</div>
       				<!-- Modal footer -->
       				<div class="modal-footer">

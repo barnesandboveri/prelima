@@ -122,7 +122,7 @@ services:
     texto_modal:
     - texto: Prelima® posee la capacidad técnica, logística e industrial para realizar
         proyectos constructivos complejos.
-    - texto: Estructuras para plantas industriales**. Estamos preparados para el diseño
+    - texto: Estructuras para plantas industriales. Estamos preparados para el diseño
         y la construcción de estructuras dentro de plantas industriales y refinerías.
         Cumplimos con todos los requerimientos de diseño para el desarrollo de instalaciones
         complejas y por tanto realizamos proyectos de estructuras en combinación con
@@ -141,16 +141,12 @@ services:
       alturas, desde la estructura a los cerramientos interiores y de fachada.
     enlace: ref
     texto_enlace: ver más
-    texto_modal: |
-      Prelima® construye viviendas unifamiliares aisladas o adosadas y edificios en altura. Nuestras soluciones adaptan un alto grado de prefabricación a las necesidades específicas de cada proyecto con gran flexibilidad, respetando también el uso del edificio, el diseño arquitectónico y los acabados prescritos. Las terminaciones de los cerramientos se pueden realizar en liso, árido lavado, ladrillo, piedra vista o texturizado
-
-      Nuestros equipos coordinan todo el proceso desde el diseño hasta la finalización del montaje de la estructura completa. A petición del cliente, también puede realizar la construcción completa de los edificios incluyendo los acabados finales.
-
-      Edificación de viviendas unifamiliares. Edificios realizados con paneles portantes y forjados, adaptados a cada caso particular, que cumplen todos los requerimientos mecánicos, térmicos y acústicos requeridos por las normas técnicas de edificación.
-
-      Edificios Residenciales y Aulas. Edificios preparados especialmente para su uso como centros residenciales de uso público o de enseñanza.
-
-      Edificación de Internamiento de Menores y Cárceles. Edificios adaptados a los requerimientos de seguridad y de instalaciones especiales para el internamiento de menores y adultos.
+    texto_modal:
+      - texto: Prelima® construye viviendas unifamiliares aisladas o adosadas y edificios en altura. Nuestras soluciones adaptan un alto grado de prefabricación a las necesidades específicas de cada proyecto con gran flexibilidad, respetando también el uso del edificio, el diseño arquitectónico y los acabados prescritos. Las terminaciones de los cerramientos se pueden realizar en liso, árido lavado, ladrillo, piedra vista o texturizado
+      - texto: Nuestros equipos coordinan todo el proceso desde el diseño hasta la finalización del montaje de la estructura completa. A petición del cliente, también puede realizar la construcción completa de los edificios incluyendo los acabados finales.
+      - texto: Edificación de viviendas unifamiliares. Edificios realizados con paneles portantes y forjados, adaptados a cada caso particular, que cumplen todos los requerimientos mecánicos, térmicos y acústicos requeridos por las normas técnicas de edificación.
+      - texto: Edificios Residenciales y Aulas. Edificios preparados especialmente para su uso como centros residenciales de uso público o de enseñanza.
+      - texto: Edificación de Internamiento de Menores y Cárceles. Edificios adaptados a los requerimientos de seguridad y de instalaciones especiales para el internamiento de menores y adultos.
     icono: "/v1544696469/apartment-house.png"
 counters:
   contadores:

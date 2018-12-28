@@ -1,8 +1,8 @@
 ---
-title: Catalogo 18
-date: 2017-26-01T15:04:10.000Z
-description: >-
-  Este catalogo contiene todas las piezas que ofrecemos desde prelima.
-image: /img/catalog_1.jpg
-url: rutaalpdf
+title: Manual Técnico
+date: 2017-08-30 22:00:00 +0000
+description: Manual Técnico de la prelosa Prelima
+image: "/v1545944577/170831-Manual-tecnico-001.jpg"
+url: ''
+
 ---
