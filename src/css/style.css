@@ -246,11 +246,13 @@ ol {
 .site-btn.sb-solid-color {
 	background: #e60003;
 	border-color: #e60003;
+	color:#fff;
 }
 
 .site-btn.sb-solid-color:after,
 .site-btn.sb-solid-color:before {
-	background: #222222;
+	background: #fff;
+
 }
 
 .site-btn.sb-solid-dark {
@@ -349,6 +351,7 @@ ol {
 
 .tab-element .nav-tabs .nav-link.active {
 	background: #e60003;
+	color:#fff;
 }
 
 .tab-element .nav-tabs .nav-link.active,
@@ -2220,4 +2223,9 @@ a.image-source-link{
 
 .blog-post-ul li{
 
+}
+.site-btn.sb-solid-color:hover {
+	background: #fff;
+	border-color: #e60003;
+	color:#000;
 }
