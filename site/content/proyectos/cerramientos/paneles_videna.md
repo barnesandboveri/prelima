@@ -2,7 +2,7 @@
 title: Panel Huaca en la VIDENA
 date: 2018-01-11 15:04:10 +0000
 description: Instalación de panel HUACA en la VIDENA
-filtro: obra_especial
+filtro: cerramientos
 image: "/v1545939251/IMG_6233.jpg"
 
 ---
