@@ -1773,6 +1773,11 @@ ol {
 	.phone-number {
 		margin-right: 30px;
 	}
+
+	.logo-area{
+		padding-right: 30px;
+	}
+
 	.nav-menu ul li a {
 		margin-right: 20px;
 	}
