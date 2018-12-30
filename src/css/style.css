@@ -1776,6 +1776,16 @@ ol {
 	.nav-menu ul li a {
 		margin-right: 20px;
 	}
+
+	.nav-menu ul li a:first-child {
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	.projects-filter-nav li:first-child{
+		margin-left: 30px;
+	}
+
 	.slide-content {
 		margin-left: 220px;
 	}
@@ -1803,6 +1813,13 @@ ol {
 	.logo-area {
 		padding: 20px 40px 30px;
 	}
+
+	.header-area {
+    background: #121212;
+    padding-right: 66px;
+	}
+
+
 	.slide-content {
 		margin-left: 170px;
 		margin-bottom: -35px;
@@ -1829,11 +1846,32 @@ ol {
 		bottom: 70%;
 		right: 100px;
 	}
-	.nav-menu ul li a {
-		margin-right: 5px;
-		font-size: 13px;
-		padding: 37px 7px 5px;
+
+	.nav-menu{
+		display: none;
+		width: 100%;
+    left: 0;
+    margin-top: 0;
+    border-top: 2px solid;
 	}
+
+
+	.nav-switch {
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    top: 20px;
+    display: block;
+}
+
+	.nav-menu ul li a {
+    display: block;
+    padding: 16px 21px;
+    border-bottom: 1px solid #202020;
+    margin-right: 0;
+	}
+
 	.phone-number {
 		font-size: 12px;
 		margin-right: 10px;
@@ -2094,6 +2132,7 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+
 }
 
 .front-title{
@@ -2227,8 +2266,4 @@ a.image-source-link{
 	background: #fff;
 	border-color: #e60003;
 	color:#000;
-}
-
-.cc-window.cc-floating {
-    max-width: 390px;
 }

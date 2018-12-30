@@ -16,7 +16,7 @@ name = "Proyectos"
 url = "/proyectos/"
 weight = 4
 [[menu.footer]]
-name = "Noticias"
+name = "Blog"
 url = "/blog/"
 weight = 3
 [[menu.footer]]
@@ -32,7 +32,7 @@ name = "Proyectos"
 url = "proyectos/"
 weight = 4
 [[menu.header]]
-name = "Noticias"
+name = "Blog"
 url = "blog/"
 weight = 3
 [[menu.header]]

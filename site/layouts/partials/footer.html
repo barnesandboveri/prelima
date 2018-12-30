@@ -3,12 +3,12 @@
 
 	<div class="container">
 		<div class="row row-pb-md">
-					<div class="col-md-3">
+					<div class="col-md-3 mb-4">
 						<img class="logo_footer" src="https://res.cloudinary.com/prelima/image/upload/v1546027893/logo_pie.png" alt="prelima">
 						<p>Ofrecemos a nuestros clientes un trato directo y personal, con un constante afán por superar sus expectativas, adaptándonos a sus necesidades y aportando soluciones integrales.</p>
 
 					</div>
-					<div class="col-md-3 col-md-push-1 ">
+					<div class="col-md-3 col-md-push-1 mb-4">
 						<h4>Ultimas Noticias</h4>
 						<ul class="footer-list">
 							{{  range first 4 (where .Site.Pages "Type" "blog") }}
@@ -16,7 +16,7 @@
 							{{ end}}
 						</ul>
 					</div>
-					<div class="col-md-3 col-md-push-1 ">
+					<div class="col-md-3 col-md-push-1 mb-4">
 						<h4>Ultimos Proyectos</h4>
 						<ul class="footer-list">
 							{{  range first 4 (where .Site.Pages "Type" "proyectos") }}
@@ -26,7 +26,7 @@
 
 					</div>
 
-					<div class="col-md-3 col-md-push-1 ">
+					<div class="col-md-3 col-md-push-1 mb-4">
 						<h4>Contacto</h4>
 						<ul class="footer-list">
 							<li>{{ .Site.Data.information.direccion_1 }}<br> {{ .Site.Data.information.direccion_2 }}, {{ .Site.Data.information.ciudad }}, {{ .Site.Data.information.pais }}</li>
@@ -42,7 +42,7 @@
 				<div class="container">
 		<div class="row mt-5 ">
 			<div class="col-md-4 ">
-				&copy; {{ dateFormat "2006" now }} Prelima
+				<p>&copy; {{ dateFormat "2006" now }} Prefabricados de Lima S.A.C.</p>
 			</div>
 			<div class="col-md-8  legales">
 
