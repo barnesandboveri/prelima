@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{ $image_url:= "/img/prueba3.jpg" }}
-{{ partial "jumbotron" (dict "imageUrl" $image_url "title" .Params.title) }}
+{{ $image_url:= "https://res.cloudinary.com/prelima/image/upload/v1546190214/bg_blog.jpg" }}
+{{ partial "jumbotron" (dict "imageUrl" $image_url "title" "Blog") }}
 
 <section class="page-section spad">
 		<div class="container">

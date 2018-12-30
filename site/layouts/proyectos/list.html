@@ -1,6 +1,6 @@
 {{ define "main" }}
-
-{{ partial "jumbotron" (dict "imageUrl" "/img/header-bg.jpg" "title" "Proyectos") }}
+{{ $image_url:= "https://res.cloudinary.com/prelima/image/upload/q_80/v1546190821/bg_proyectos.jpg" }}
+{{ partial "jumbotron" (dict "imageUrl" $image_url "title" "Proyectos") }}
 
 
 <!-- Page section start -->
