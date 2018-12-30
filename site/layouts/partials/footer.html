@@ -65,14 +65,6 @@
 
 
 
-<!-- Google Fonts -->
-<link async href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-<link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<!-- Stylesheets -->
-{{ $stylesheet := .Site.Data.webpack.main }}
-{{ with $stylesheet.css }}
-	<link async href="{{ relURL . }}" rel="stylesheet">
-	{{ end }}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
