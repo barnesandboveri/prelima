@@ -168,13 +168,13 @@ confian:
   clientes:
   - logo: "/v1544699761/logo-ms.png"
     web: http://msinmobiliaria.pe/
-  - logo: "/v1544699760/logo_ciudaris.png"
+  - logo: "/v1546185999/logo_ciudaris.png"
     web: http://www.ciudaris.com/
-  - logo: "/v1544696475/logo_gat.png"
+  - logo: "/v1546185999/logo_gat.png"
     web: https://www.gatfertiliquidos.com/
-  - logo: "/v1544696474/logo-inarco.png"
+  - logo: "/v1546185999/logo-inarco.png"
     web: https://inarco.cl/
-  - logo: "/v1544696467/logo_corbus.png"
+  - logo: "/v1546185999/logo_corbus.png"
     web: google.es
   - logo: "/v1544696473/logo_cosapi.jpg"
     web: https://www.cosapi.com.pe/site/index.aspx
