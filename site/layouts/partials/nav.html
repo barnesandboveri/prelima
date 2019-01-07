@@ -14,8 +14,16 @@
 
 		<nav class="nav-menu">
 			<ul>
+
+				{{ if .IsHome}}
+				{{ range .Site.Menus.header }}
+				<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+				{{end }}
+				{{ else }}
 				{{ range .Site.Menus.header }}
 				<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+				{{ end }}
+
 				{{ end }}
 			</ul>
 		</nav>

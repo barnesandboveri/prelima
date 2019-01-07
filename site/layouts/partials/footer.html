@@ -5,7 +5,19 @@
 		<div class="row row-pb-md">
 					<div class="col-md-3 mb-4">
 						<img class="logo_footer" src="https://res.cloudinary.com/prelima/image/upload/v1546027893/logo_pie.png" alt="prelima">
-						<p>Ofrecemos a nuestros clientes un trato directo y personal, con un constante afán por superar sus expectativas, adaptándonos a sus necesidades y aportando soluciones integrales.</p>
+						<ul class="footer-menu">
+
+							{{ if .IsHome}}
+							{{ range .Site.Menus.footer }}
+							<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+							{{end }}
+							{{ else }}
+							{{ range .Site.Menus.footer }}
+							<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+							{{ end }}
+
+							{{ end }}
+						</ul>
 
 					</div>
 					<div class="col-md-3 col-md-push-1 mb-4">

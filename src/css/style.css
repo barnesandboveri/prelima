@@ -2151,7 +2151,7 @@ ol {
 }
 
 img.logo_footer{
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 
 }
 
@@ -2234,12 +2234,12 @@ a.image-source-link{
 }
 
 
-.footer-list{
+.footer-list, .footer-menu{
 	font-size: 15px;
 
 }
 
-.footer-list li{
+.footer-list li,.footer-menu li{
 	margin: 5px 0;
 	color: #727272;
 }
@@ -2248,11 +2248,11 @@ a.image-source-link{
 	margin-top: 25px;
 }
 
-.footer-list li a{
+.footer-list li a, .footer-menu li a{
 	color: #727272;
 }
 
-.footer-list li a:hover, .legales ul li a:hover{
+.footer-list li a:hover, .footer-menu li a:hover, .legales ul li a:hover{
     background-color: #e60003;
     color: white;
 }
