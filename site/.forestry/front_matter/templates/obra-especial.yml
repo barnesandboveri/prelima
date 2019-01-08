@@ -16,8 +16,10 @@ fields:
 - name: filtro
   label: Filtro
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: obra_especial
+  config:
+    required: false
 - name: description
   label: Description
   type: textarea
