@@ -34,3 +34,5 @@ fields:
   name: galeria
   label: Galeria
   description: Galeria de imagenes
+pages:
+- site/content/proyectos/obra_especial/graderíos-en-la-videna.md
