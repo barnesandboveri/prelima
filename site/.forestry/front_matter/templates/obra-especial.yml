@@ -1,7 +1,7 @@
 ---
 label: Obra especial
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -28,3 +28,7 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: image_gallery
+  name: galeria
+  label: Galeria
+  description: Galeria de imagenes
