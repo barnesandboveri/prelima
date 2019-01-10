@@ -34,3 +34,7 @@ fields:
   name: galeria
   label: Galeria
   description: Galeria de imagenes
+pages:
+  - site/content/proyectos/edificacion_residencial/departamentos-liberpark.md
+  - site/content/proyectos/edificacion_residencial/Santa_Leonor_Chorrillos.md
+  - site/content/proyectos/edificacion_residencial/upn_chorrillos.md
