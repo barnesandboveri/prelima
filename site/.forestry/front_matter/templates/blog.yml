@@ -27,6 +27,7 @@ fields:
   label: Galeria
   description: Galería de imagenes
 pages:
+- site/content/blog/fabricación-prelosa-prelima-1.md
 - site/content/blog/instalación-cerco-perimétrico-gat.md
 - site/content/blog/montaje-proyecto-liberpark-ciudaris.md
 - site/content/blog/montaje-prelosa-prelima-proyecto-neomar-ii.md
