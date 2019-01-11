@@ -1,6 +1,6 @@
 ---
 title: Neptuno
-image: /img/neptuno.gif
+image: /v1544699765/neptuno.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

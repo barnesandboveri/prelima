@@ -1,6 +1,6 @@
 ---
 title: Jupiter
-image: /img/jupiter.gif
+image: /v1544699304/jupiter.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

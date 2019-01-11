@@ -1,6 +1,6 @@
 ---
 title: Apolo
-image: /img/apolo.gif
+image: /v1544699285/apolo.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

@@ -1,6 +1,6 @@
 ---
 title: Hercules
-image: /img/hercules.gif
+image: /v1544699298/hercules.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

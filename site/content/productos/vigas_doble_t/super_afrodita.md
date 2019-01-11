@@ -1,6 +1,6 @@
 ---
 title: Super Afrodita
-image: /img/super_afrodita.gif
+image: /v1544699774/super_afrodita.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

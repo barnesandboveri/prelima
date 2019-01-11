@@ -1,6 +1,6 @@
 ---
 title: Super Minerva
-image: /img/super_minerva.gif
+image: /v1544699775/super_minerva.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

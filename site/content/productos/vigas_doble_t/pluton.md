@@ -1,6 +1,6 @@
 ---
 title: Pluton
-image: /img/pluton.gif
+image: /v1544699770/pluton.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

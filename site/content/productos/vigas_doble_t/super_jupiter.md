@@ -1,6 +1,6 @@
 ---
 title: Super Jupiter
-image: /img/super_jupiter.gif
+image: /v1544699774/super_jupiter.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

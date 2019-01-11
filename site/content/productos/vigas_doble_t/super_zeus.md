@@ -1,6 +1,6 @@
 ---
 title: Super Zeus
-image: /img/super_zeus.gif
+image: /v1544699776/super_zeus.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

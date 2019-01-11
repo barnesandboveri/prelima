@@ -1,6 +1,6 @@
 ---
 title: Polifemo
-image: /img/polifemo.gif
+image: /v1544699770/polifemo.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

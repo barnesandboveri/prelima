@@ -1,6 +1,6 @@
 ---
 title: Super Neptuno
-image: /img/super_neptuno.gif
+image: /v1544699775/super_neptuno.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

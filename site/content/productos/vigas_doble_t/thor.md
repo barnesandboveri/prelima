@@ -1,6 +1,6 @@
 ---
 title: Thor
-image: /img/thor.gif
+image: /v1544699776/thor.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

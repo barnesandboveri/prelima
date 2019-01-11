@@ -1,6 +1,6 @@
 ---
 title: Super Venus
-image: /img/super_venus.gif
+image: /v1544699776/super_venus.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

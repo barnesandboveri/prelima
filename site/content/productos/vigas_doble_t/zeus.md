@@ -1,6 +1,6 @@
 ---
 title: Zeus
-image: /img/zeus.gif
+image: /v1544699785/zeus.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

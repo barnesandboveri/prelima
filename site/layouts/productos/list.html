@@ -49,7 +49,7 @@
 					<div class="row">
 						{{ range $i, $e := .Data.Pages }}
 						<div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-							<img class="mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Params.title }}">
+							<img class="mx-auto d-block" src="https://res.cloudinary.com/prelima/image/upload/{{ .Params.image }}" alt="{{ .Params.title }}">
 							<h5 class="mt-5 text-center"><a class="popup-modal" href="#{{ .Params.filtro }}_{{ $i }}">{{ .Params.title }}</a></h5>
 							<div id="{{ .Params.filtro }}_{{ $i }}" class="white-popup mfp-hide">
   							<h1>{{ .Title }}</h1>

@@ -1,6 +1,6 @@
 ---
 title: Erandio 100
-image: /img/erandio_100.gif
+image: /v1544699293/erandio_100.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

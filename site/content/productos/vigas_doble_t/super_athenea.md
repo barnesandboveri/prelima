@@ -1,6 +1,6 @@
 ---
 title: Super Athenea
-image: /img/super_athenea.gif
+image: /v1544699774/super_athenea.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

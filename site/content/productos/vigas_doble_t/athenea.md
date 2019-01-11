@@ -1,6 +1,6 @@
 ---
 title: Athenea
-image: /img/athenea.gif
+image: /v1544699287/athenea.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

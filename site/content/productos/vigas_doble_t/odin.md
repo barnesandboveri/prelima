@@ -1,6 +1,6 @@
 ---
 title: Odin
-image: /img/odin.gif
+image: /v1544699765/odin.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

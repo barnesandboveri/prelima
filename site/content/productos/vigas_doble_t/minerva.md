@@ -1,6 +1,6 @@
 ---
 title: Minerva
-image: /img/minerva.gif
+image: /v1544699761/minerva.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

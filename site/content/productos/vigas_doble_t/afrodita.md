@@ -1,6 +1,6 @@
 ---
 title: Afrodita
-image: /img/afrodita.gif
+image: /v1544699284/afrodita.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

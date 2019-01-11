@@ -1,6 +1,6 @@
 ---
 title: Atlas
-image: /img/atlas.gif
+image: /v1544699287/atlas.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark

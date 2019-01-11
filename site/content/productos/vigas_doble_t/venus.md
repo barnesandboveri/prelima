@@ -1,6 +1,6 @@
 ---
 title: Venus
-image: /img/venus.gif
+image: /v1544699783/venus.gif
 filtro: vigas_doble_T
 productos: ["vigas_doble_T"]
 markup: mmark
