@@ -5,6 +5,9 @@ description: El Ministerio de Vivienda homologa, el 31 de Enero de 2017, el Sist
   Constructivo No Convencional de Prelosas Pretensadas PRELIMA mediante Resolución
   Ministerial Nº 037-2017-VIVIENDA
 image: "/v1545940076/2016-11-26-PHOTO-00036521.jpg"
+galeria:
+- "/v1545940076/2016-11-26-PHOTO-00036519.jpg"
+- "/v1545940076/2016-11-26-PHOTO-00036521.jpg"
 
 ---
 El Ministerio de Vivienda homologa, el 31 de Enero de 2017, el Sistema Constructivo No Convencional de Prelosas Pretensadas PRELIMA mediante Resolución Ministerial Nº 037-2017-VIVIENDA
