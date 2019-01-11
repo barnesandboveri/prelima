@@ -1,7 +1,7 @@
 ---
 label: Blog
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -23,3 +23,7 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: file
+  name: galeria
+  label: Galeria
+  description: Galeria de imagenes
