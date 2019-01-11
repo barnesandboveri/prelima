@@ -3,15 +3,15 @@ label: Blog
 hide_body: false
 is_partial: false
 fields:
-- type: file
-  name: image
-  label: Imagen
-  description: Imagen de portada
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
+- type: file
+  name: image
+  label: Imagen
+  description: Imagen de portada
 - name: description
   label: Description
   type: textarea
@@ -22,7 +22,7 @@ fields:
   type: datetime
   hidden: false
   default: ''
-- type: file
+- type: image_gallery
   name: galeria
   label: Galeria
-  description: Galeria de imagenes
+  description: Galería de imagenes
