@@ -1,6 +1,6 @@
 ---
 title: Correa 25.20
-image: /img/correo_25_20.gif
+image: /v1544699294/correo_25_20.gif
 filtro: correas
 productos: ["Correas"]
 markup: mmark

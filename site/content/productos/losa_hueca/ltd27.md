@@ -1,6 +1,6 @@
 ---
 title: Ltd27
-image: /img/Ltd27.gif
+image: /v1544699761/Ltd27.gif
 filtro: losa_hueca
 productos: ["losa_hueca"]
 markup: mmark

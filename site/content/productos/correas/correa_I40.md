@@ -1,6 +1,6 @@
 ---
 title: Correa I40
-image: /img/correo_I40.gif
+image: /v1544699294/correo_I40.gif
 filtro: correas
 productos: ["Correas"]
 markup: mmark

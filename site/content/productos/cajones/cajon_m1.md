@@ -1,6 +1,6 @@
 ---
 title: Cajon M1
-image: /img/cajon_m1.gif
+image: /v1544699292/cajon_m1.gif
 filtro: cajones
 productos: ["Cajones"]
 markup: mmark

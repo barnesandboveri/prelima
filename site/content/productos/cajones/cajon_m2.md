@@ -1,6 +1,6 @@
 ---
 title: Cajon M2
-image: /img/cajon_m2.gif
+image: /v1544699290/cajon_m2.gif
 filtro: cajones
 productos: ["Cajones"]
 markup: mmark

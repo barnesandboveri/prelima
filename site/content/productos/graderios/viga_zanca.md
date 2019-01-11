@@ -1,6 +1,6 @@
 ---
 title: Viga Zanca
-image: /img/zanca.gif
+image: /v1544699784/zanca.gif
 filtro: graderios
 productos: ["Graderios"]
 markup: mmark

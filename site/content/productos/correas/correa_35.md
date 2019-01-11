@@ -1,6 +1,6 @@
 ---
 title: Correa 35
-image: /img/correo_35.gif
+image: /v1544699294/correo_35.gif
 filtro: correas
 productos: ["Correas"]
 markup: mmark

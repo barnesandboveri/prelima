@@ -1,6 +1,6 @@
 ---
 title: Peldaño
-image: /img/peldano.gif
+image: /v1544699768/peldano.gif
 filtro: graderios
 productos: ["Graderios"]
 markup: mmark

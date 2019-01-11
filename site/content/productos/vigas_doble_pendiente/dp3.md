@@ -1,6 +1,6 @@
 ---
 title: DP3
-image: /img/dp3.gif
+image: /v1544699295/dp3.gif
 filtro: vigas_doble_pendiente
 productos: ["vigas_doble_pendiente"]
 markup: mmark

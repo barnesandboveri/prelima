@@ -1,6 +1,6 @@
 ---
 title: TV1
-image: /img/tv1.gif
+image: /v1544699782/tv1.gif
 filtro: vigas_doble_pendiente
 productos: ["vigas_doble_pendiente"]
 markup: mmark

@@ -1,6 +1,6 @@
 ---
 title: Muro aleta
-image: /img/muro_aleta.gif
+image: /v1544699765/muro_aleta.gif
 filtro: muros
 productos: ["Muros"]
 markup: mmark

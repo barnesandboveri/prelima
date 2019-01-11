@@ -1,6 +1,6 @@
 ---
 title: VRC
-image: /img/vrc.gif
+image: /v1544699784/vrc.gif
 filtro: vigas_testeros
 productos: ["vigas_testeros"]
 markup: mmark

@@ -1,6 +1,6 @@
 ---
 title: Pilar Especial
-image: /img/pilar_especial.gif
+image: /v1544699769/pilar_especial.gif
 filtro: pilares
 productos: ["Pilares"]
 markup: mmark

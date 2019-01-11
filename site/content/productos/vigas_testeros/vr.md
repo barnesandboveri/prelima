@@ -1,6 +1,6 @@
 ---
 title: VR
-image: /img/vr.gif
+image: /v1544699783/vr.gif
 filtro: vigas_testeros
 productos: ["vigas_testeros"]
 markup: mmark

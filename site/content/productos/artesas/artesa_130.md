@@ -1,6 +1,6 @@
 ---
 title: Artesa 130
-image: /img/artesa_130.gif
+image: /v1544699286/artesa_130.gif
 filtro: artesas
 productos: ["Artesas"]
 markup: mmark

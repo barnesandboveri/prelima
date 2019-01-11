@@ -1,6 +1,6 @@
 ---
 title: Correa 14.08
-image: /img/correo_14_08.gif
+image: /v1544699294/correo_14_08.gif
 filtro: correas
 productos: ["Correas"]
 markup: mmark

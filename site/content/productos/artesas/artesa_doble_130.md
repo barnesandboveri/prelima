@@ -1,6 +1,6 @@
 ---
 title: Artesa doble 130
-image: /img/artesa_doble_130.gif
+image: /v1544699286/artesa_doble_130.gif
 filtro: artesas
 productos: ["Artesas"]
 markup: mmark

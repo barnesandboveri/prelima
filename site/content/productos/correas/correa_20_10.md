@@ -1,6 +1,6 @@
 ---
 title: Correa 20.10
-image: /img/correo_20_10.gif
+image: /v1544699294/correo_20_10.gif
 filtro: correas
 productos: ["Correas"]
 markup: mmark

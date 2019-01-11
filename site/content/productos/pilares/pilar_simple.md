@@ -1,6 +1,6 @@
 ---
 title: Pilar Simple
-image: /img/pilar_simple.gif
+image: /v1544699769/pilar_simple.gif
 filtro: pilares
 productos: ["Pilares"]
 markup: mmark

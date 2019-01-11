@@ -1,6 +1,6 @@
 ---
 title: Lhe 20
-image: /img/lhe_20.gif
+image: /v1544699760/lhe_20.gif
 filtro: losa_hueca
 productos: ["losa_hueca"]
 markup: mmark

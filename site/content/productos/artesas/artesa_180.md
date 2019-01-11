@@ -1,6 +1,6 @@
 ---
 title: Artesa 180
-image: /img/artesa_180.gif
+image: /v1544699286/artesa_180.gif
 filtro: artesas
 productos: ["Artesas"]
 markup: mmark

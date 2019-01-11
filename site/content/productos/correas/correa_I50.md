@@ -1,6 +1,6 @@
 ---
 title: Correa I50
-image: /img/correo_I50.gif
+image: /v1544699294/correo_I50.gif
 filtro: correas
 productos: ["Correas"]
 markup: mmark

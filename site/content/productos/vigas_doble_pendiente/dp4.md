@@ -1,6 +1,6 @@
 ---
 title: DP4
-image: /img/dp4.gif
+image: /v1544699295/dp4.gif
 filtro: vigas_doble_pendiente
 productos: ["vigas_doble_pendiente"]
 markup: mmark
