@@ -1,7 +1,6 @@
 +++
 date = "2018-09-27T22:00:00+00:00"
 description = "Nuestro cliente, CIUDARIS, se encuentra en fase de terminación del proyecto LIBERPARK en San Miguel donde ha utilizado la Prelosa pretensada PRELIMA destinada a formación de pisos."
-draft = true
 galeria = ["/v1545942279/Liberpark06.jpg", "/v1545942280/Liberpark01.jpg", "/v1545942280/Liberpark02.jpg", "/v1545942280/Liberpark03.jpg", "/v1545942280/Liberpark04.jpg", "/v1545942280/Liberpark05.jpg", "/v1544699760/liberpark.jpg"]
 image = "/v1544699760/liberpark.jpg"
 title = "Montaje - Proyecto Liberpark (CIUDARIS)"
