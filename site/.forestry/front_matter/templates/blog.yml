@@ -27,4 +27,5 @@ fields:
   label: Galeria
   description: Galería de imagenes
 pages:
+- site/content/blog/montaje-proyecto-liberpark-ciudaris.md
 - site/content/blog/instalación-cerco-perimétrico-gat.md
