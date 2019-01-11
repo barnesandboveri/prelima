@@ -5,6 +5,8 @@ description: El Ministerio de Vivienda homologa, el 5 de Octubre de 2016, el Sis
   Constructivo No Convencional de Viviendas Prefabricadas Prelima mediante Resolución
   Ministerial Nº 343-2016-VIVIENDA
 image: "/v1545940372/vivienda_prelima.jpg"
+galeria:
+- "/v1545940372/vivienda_prelima.jpg"
 
 ---
 El Ministerio de Vivienda homologa, el 5 de Octubre de 2016, el Sistema Constructivo No Convencional de Viviendas Prefabricadas Prelima mediante Resolución Ministerial Nº 343-2016-VIVIENDA
