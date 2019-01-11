@@ -26,3 +26,5 @@ fields:
   name: galeria
   label: Galeria
   description: Galería de imagenes
+pages:
+- site/content/blog/instalación-cerco-perimétrico-gat.md
