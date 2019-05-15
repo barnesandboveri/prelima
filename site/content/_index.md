@@ -49,7 +49,7 @@ services:
         cargas, nudos rígidos para estructuras en varias plantas o para zonas con
         alto grado de sismicidad.
     icono: "/v1544696472/factory.png"
-  - titulo: Contención
+  - titulo: Muros de Contención
     descripcion: Prelima® pone a disposición de sus clientes Muros de Contención de
       rápido montaje en obra
     enlace: ref
@@ -74,9 +74,7 @@ services:
     texto_modal:
     - texto: Sandwich total. Diseñado para alcanzar el aislamiento térmico y acústico
         según prescripción del proyecto con espesores desde 24 cm.
-    - texto: Panel PCMs. Estabilizan la temperatura interior de los edificio, mediante
-        adiciones que aprovechan el salto energético necesario para su cambio de fase,
-        mejorando el aislamiento térmico sin consumo de energía.
+    - texto: Panel arquitectónico diseñado según Proyecto
     - texto: Macizo convencional. Dirigidos a obras industriales con requerimientos
         de alta resistencia y obras residenciales sin requerimientos de aislamiento
         térmico.
@@ -142,24 +140,38 @@ services:
     enlace: ref
     texto_enlace: ver más
     texto_modal:
-      - texto: Prelima® construye viviendas unifamiliares aisladas o adosadas y edificios en altura. Nuestras soluciones adaptan un alto grado de prefabricación a las necesidades específicas de cada proyecto con gran flexibilidad, respetando también el uso del edificio, el diseño arquitectónico y los acabados prescritos. Las terminaciones de los cerramientos se pueden realizar en liso, árido lavado, ladrillo, piedra vista o texturizado
-      - texto: Nuestros equipos coordinan todo el proceso desde el diseño hasta la finalización del montaje de la estructura completa. A petición del cliente, también puede realizar la construcción completa de los edificios incluyendo los acabados finales.
-      - texto: Edificación de viviendas unifamiliares. Edificios realizados con paneles portantes y forjados, adaptados a cada caso particular, que cumplen todos los requerimientos mecánicos, térmicos y acústicos requeridos por las normas técnicas de edificación.
-      - texto: Edificios Residenciales y Aulas. Edificios preparados especialmente para su uso como centros residenciales de uso público o de enseñanza.
-      - texto: Edificación de Internamiento de Menores y Cárceles. Edificios adaptados a los requerimientos de seguridad y de instalaciones especiales para el internamiento de menores y adultos.
+    - texto: Prelima® construye viviendas unifamiliares aisladas o adosadas y edificios
+        en altura. Nuestras soluciones adaptan un alto grado de prefabricación a las
+        necesidades específicas de cada proyecto con gran flexibilidad, respetando
+        también el uso del edificio, el diseño arquitectónico y los acabados prescritos.
+        Las terminaciones de los cerramientos se pueden realizar en liso, árido lavado,
+        ladrillo, piedra vista o texturizado
+    - texto: Nuestros equipos coordinan todo el proceso desde el diseño hasta la finalización
+        del montaje de la estructura completa. A petición del cliente, también puede
+        realizar la construcción completa de los edificios incluyendo los acabados
+        finales.
+    - texto: Edificación de viviendas unifamiliares. Edificios realizados con paneles
+        portantes y forjados, adaptados a cada caso particular, que cumplen todos
+        los requerimientos mecánicos, térmicos y acústicos requeridos por las normas
+        técnicas de edificación.
+    - texto: Edificios Residenciales y Aulas. Edificios preparados especialmente para
+        su uso como centros residenciales de uso público o de enseñanza.
+    - texto: Edificación de Internamiento de Menores y Cárceles. Edificios adaptados
+        a los requerimientos de seguridad y de instalaciones especiales para el internamiento
+        de menores y adultos.
     icono: "/v1544696469/apartment-house.png"
 counters:
   contadores:
-  - cifra: 14
+  - cifra: "14"
     palabra1: Años
     palabra2: Experiencia
-  - cifra: 237
+  - cifra: "237"
     palabra1: Proyectos
     palabra2: realizados
-  - cifra: 11
+  - cifra: "11"
     palabra1: Piezas
     palabra2: Fabricadas
-  - cifra: 122
+  - cifra: "122"
     palabra1: Tipo
     palabra2: Piezas
 proyectoss:
