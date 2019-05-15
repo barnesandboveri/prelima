@@ -1,4 +1,0 @@
----
-title: Artesas
-filtro: artesas
----

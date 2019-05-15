@@ -1,14 +1,14 @@
 ---
-title: Livia
+title: Prelosa_Prelima
 image: /v1544699760/livia.gif
-filtro: livias
-productos: ["Livia"]
+filtro: prelosa
+productos: ["Prelosa_Prelima"]
 markup: mmark
 
 ---
 {.table}
 
-|LIVIA|LIVIA|
+|PRELOSA PRELIMA|PRELOSA PRELIMA|
 |--- |--- |
 |Canto (m)||
 |Ancho Max. (m)||
