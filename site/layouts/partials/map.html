@@ -14,14 +14,20 @@
 
  			<div class="row">
  				<div class="col-lg-3 contact-info mb-5 mb-lg-0">
- 					<p>Dir: {{ .direccion_1 }} {{ .direccion_2 }}<br/>
-						 {{ .ciudad }}	<br/>
-						 {{ .pais }}
-					</p>
+ 					<p>{{ .direccion_1 }}<br/> {{ .direccion_2 }}, {{ .ciudad }}, {{ .pais }}<br/>
 
- 					<p>Teléfono: {{ .telefono }} </p>
-					<p>Celular: {{ .celular }} </p>
- 					<p>Email: {{ .email }} </p>
+				</p>
+
+ 					<p>
+          Fábrica: {{ .telefono_fabrica }} <br/>
+					Comercial: {{ .telefono_comercial }} </p>
+
+
+          <p>
+          {{ .email }}<br/>
+          Fábrica: {{ .email_fabrica }} <br/>
+					Comercial: {{ .email_comercial }} </p>
+
 
  				</div>
  				<div class="col-lg-9">
