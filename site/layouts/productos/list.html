@@ -24,7 +24,7 @@
 					<h1>Catalogos</h1>
 				</div>
   			<div class="row">
-          {{ range where .Site.Pages "Section" "catalogos" }}
+          {{ range where .Site.RegularPages "Section" "catalogos" }}
           <div class="col-lg-4 col-md-6">
   					<div class="service-box catalogo">
               <div class="mb-2">
@@ -32,7 +32,7 @@
               </div>
               <h3>{{ .Params.Title }}</h3>
   						<p>{{ .Params.description }}</p>
-  						<a href="{{ .Params.url }}" class="readmore">Ver catalogo</a>
+  						<a href="{{ .Permalink }}" class="readmore">Ver catalogo</a>
   					</div>
   				</div>
           {{ end }}

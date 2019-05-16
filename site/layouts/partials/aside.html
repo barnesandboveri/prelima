@@ -3,7 +3,7 @@
   <div class="widget-area">
     <h3 class="widget-title">Catálogos</h3>
     <div class="rp-widget">
-      {{ range first 5 (where .Site.Pages "Type" "catalogos") }}
+      {{ range first 5 (where .Site.RegularPages "Type" "catalogos") }}
       {{ .Render "widget" }}
       {{ end }}
 
