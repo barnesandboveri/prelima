@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ $image_url:= "https://res.cloudinary.com/prelima/image/upload/q_80/v1546191150/bg_productos.jpg" }}
+{{ partial "jumbotron" (dict "imageUrl" $image_url "title" .Params.title) }}
+
+<section class="page-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-12">
+          <div class="blog-post">
+
+            <div class="blog-content">
+              <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <p>{{ .Content }}</p>
+
+              <embed src="https://res.cloudinary.com/prelima/image/upload/{{ $.Param "folleto" }}" type="application/pdf" width="100%" style="min-height:100vh;width:100%">
+
+            </div>
+          </div>
+
+				</div>
+				{{ partial "aside" . }}
+			</div>
+		</div>
+	</section>
+{{ end }}
