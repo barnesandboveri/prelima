@@ -12,9 +12,7 @@
               <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
               <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
               <p>{{ .Content }}</p>
-
               <embed src="https://res.cloudinary.com/prelima/image/upload/{{ $.Param "folleto" }}" type="application/pdf" width="100%" style="min-height:100vh;width:100%">
-
             </div>
           </div>
 
