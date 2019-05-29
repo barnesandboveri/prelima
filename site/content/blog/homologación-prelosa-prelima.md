@@ -1,7 +1,6 @@
 +++
 date = "2019-05-28T22:00:00+00:00"
 description = "Incio de Instalacion de gradas prefabricadas"
-draft = true
 galeria = ["/v1559141480/EPGC3973.jpg"]
 image = "/v1559141717/IMG_2619.jpg"
 title = "Instalacion de Prefabricado"
