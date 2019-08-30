@@ -1,16 +1,12 @@
 +++
-date = "2017-01-24T23:00:00+00:00"
-description = "Actualmente, nuestro cliente, MS CONSTRUCTORES, se encuentra en proceso de montaje en obra de la Prelosa pretensada PRELIMA destinada a formación de pisos del proyecto NEOMAR II en Pueblo Libre."
+date = ""
+description = "Prelima ha sido adjudicataria de la fabricación e Instalacion de los paneles arquitectonicos y Gradas prefabricadas de la Villa deportiva de Videna, donde se celebrarán los Juegos Panamericanos y Parapanamericanos de Lima 2019."
 draft = true
-galeria = ["/v1545941992/neomar_08.jpg", "/v1545941992/neomar_06.jpg", "/v1545941994/neomar_11.jpg", "/v1545941994/neomar_12.jpg", "/v1545941994/neomar_10.jpg", "/v1545941991/neomar_01.jpg", "/v1545941991/neomar_05.jpg", "/v1545941991/neomar_03.jpg", "/v1545941991/neomar_07.jpg", "/v1545941991/neomar_02.jpg", "/v1545941991/neomar_04.jpg"]
-image = "/v1545941991/neomar_02.jpg"
-title = "Montaje Prelosa PRELIMA – Proyecto Neomar II"
+galeria = ["/v1567152716/aaf9a1e4-f559-4b2f-81c5-f605997b8f05_qkpb33.jpg", "/v1567152698/658409f0-b34f-4120-928a-aecb5d5387d6_xklxlk.jpg", "/v1567152655/IMG_6232_ine9tg.jpg", "/v1559141480/EPGC3973.jpg", "/v1567152622/IMG_6220_srwyll.jpg"]
+image = "/v1559141717/IMG_2619.jpg"
+title = "Prelima adjudicataria de los Paneles Arqutectónicos de LIMA 2019"
 
 +++
-Actualmente, nuestro cliente, MS CONSTRUCTORES, se encuentra en proceso de montaje en obra de la Prelosa pretensada PRELIMA destinada a formación de pisos del proyecto NEOMAR II en Pueblo Libre.
+Prelima ha iniciado los trabajos de fabricación e instalación de las gradas y Paneles arquitectonicos en el recinto de la Villa deportiva de Videna, en Lima.
 
-En las imágenes se puede apreciar la limpieza en la ejecución de los trabajos, la inmejorable calidad de acabados de los techos y la facilidad que supone el paso de instalaciones. Todo ello sin la necesidad de encofrados ni apuntalamientos de otras soluciones constructivas.
-
-MS CONSTRUCTORES está feliz con su decisión y nosotros orgullosos de haber contribuido a ello.
-
-Felicitamos, nuevamente, a MS CONSTRUCTORES por haber avanzado un paso más en la búsqueda de la excelencia en su trabajo.
+Nuestro cliente Cosapi confia en una gran empresa preparada para ofrecer un producto de calidad.
