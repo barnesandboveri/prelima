@@ -34,5 +34,5 @@ fields:
   label: Galeria
   description: Galeria de imagenes
 pages:
-- site/content/proyectos/cerramientos/paneles_videna.md
 - site/content/proyectos/cerramientos/cerramiento-gat.md
+- site/content/proyectos/cerramientos/paneles_videna.md
